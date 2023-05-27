@@ -1,0 +1,151 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #333;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+main {
+  padding: 2rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #eee;
+  color: #333;
+}
+
+form textarea {
+  min-height: 10rem;
+}
+
+form button[type="submit"] {
+  background-color: #fff;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+form button[type="submit"]:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
+  }
+}
