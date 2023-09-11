@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🌱 I’m currently learning MVVM architecture
+- 🌱 I’m currently learning [bloc](https://bloclibrary.dev/)
 - :computer: I’m looking to collaborate on open source projects
 - 💬 Ask me about [Flutter](https://flutter.dev/) & [Dart](https://dart.dev/)
 - 😄 Pronouns: he/him/his
